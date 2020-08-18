@@ -56,7 +56,39 @@ form {
   margin-left: 20px;
 }
 
-button {
+.deleteButton {
+  margin-left: auto;
+  margin-right: 6%;
+  background-color: rgba(255, 0, 0, 0.712);
+  background-image:url("img/delete.png");
+  border: none;
+  border-radius: 5px;
+  height: 50px;
+  /* width: 50px; */
+  width: 200px;
+  box-shadow: 3px 3px 15px -5px rgba(216, 0, 0, 0.555);
+  margin: 10px
+}
+
+.removeText {
+  margin-left: 10px;
+  font-size: 18px;
+  color:white;
+}
+
+
+.deleteForm {
+  margin:0;
+  padding:0;
+  /* display: inline; */
+}
+.deleteImage{
+  width: 15px;
+  margin-top:4px;
+  filter: invert(1)
+}
+
+.addButton {
   min-height: 50px;
   width: 50px;
   border-radius: 50%;

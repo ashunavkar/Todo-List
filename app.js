@@ -23,8 +23,14 @@ app.get("/", (req, res)=>{
 })
 app.post("/", (req, res)=>{
     var item = req.body.newItem  // value from the user input field
-    items.push(item) // item is pushed into the global arry
+    items.push(item)  // item is pushed into the global arry
     res.redirect("/") // redirect to the home page
+})
+
+app.post("/delete", function(req, res){
+    // items.splice(1,1)
+    items.pop()
+    res.redirect("/")
 })
 
 app.listen(process.env.PORT || 3000, ()=>{
