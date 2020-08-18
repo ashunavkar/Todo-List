@@ -27,6 +27,6 @@ app.post("/", (req, res)=>{
     res.redirect("/") // redirect to the home page
 })
 
-app.listen(3000, ()=>{
+app.listen(process.env.PORT || 3000, ()=>{
     console.log("server is runnin on http://localhost:3000")
 })
