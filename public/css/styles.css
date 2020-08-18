@@ -105,6 +105,7 @@ form {
   padding-bottom: 6px;
   border-width: 0;
   box-shadow: 3px 3px 15px -5px rgba(0, 0, 0, 0.3);
+  margin-right:10px;
 }
 
 input[type="text"] {
