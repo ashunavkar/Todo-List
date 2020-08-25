@@ -1,0 +1,36 @@
+[33mcommit 93488f23c532736534201c19fc89a1b5dc113088[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Merge: 32c46ae 2787092
+Author: Jim <12ashutosh.n@gmail.com>
+Date:   Tue Aug 18 16:44:57 2020 +0530
+
+    Merge https://github.com/ashunavkar/Todo-List into master
+
+[33mcommit 32c46ae797450023411bf2c8689512fd7d843957[m[33m ([m[1;31mheroku/master[m[33m)[m
+Author: Jim <12ashutosh.n@gmail.com>
+Date:   Tue Aug 18 16:30:19 2020 +0530
+
+    add heroku Procfile
+
+[33mcommit 3fe0ebe271f12da7e0e2eabb1588ecaf0ce8fc65[m
+Author: Jim <12ashutosh.n@gmail.com>
+Date:   Tue Aug 18 16:27:49 2020 +0530
+
+    set server config for heroku
+
+[33mcommit 278709236b244bf510e488df73b085b14d076216[m
+Author: ashunavkar <66727261+ashunavkar@users.noreply.github.com>
+Date:   Tue Aug 18 16:25:57 2020 +0530
+
+    Delete listCopy.ejs
+
+[33mcommit 9994fde3194c317338a88b82b7fea8cb09e9273b[m
+Author: ashunavkar <66727261+ashunavkar@users.noreply.github.com>
+Date:   Tue Aug 18 16:25:36 2020 +0530
+
+    Delete appCopy.js
+
+[33mcommit e7f692f4d3e71b9abf992ed9c48a425c43b4aa47[m
+Author: Jim <12ashutosh.n@gmail.com>
+Date:   Tue Aug 18 16:17:40 2020 +0530
+
+    Todo List v1.0.0
