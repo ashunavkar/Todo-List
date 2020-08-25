@@ -11,14 +11,11 @@ h1 {
 }
 
 .box {
-  border: 1px solid rgba(211, 211, 211, 0.445);
   max-width: 400px;
   margin: 50px auto;
   background: white;
   border-radius: 5px;
-  /* box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3); */
-  background-color: #f1f4ff;
-  box-shadow: 4px 4px 6px rgba(163, 163, 163, 0.747), -1px -1px 10px 4px rgba(255, 255, 255, 0.644);
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 
 #heading {
@@ -54,76 +51,47 @@ p {
   color: #00204a;
 }
 
+.addImage {
+  width: 15px;
+  margin-top:4px;
+  filter: invert(1);
+  box-shadow: 3px 3px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
 form.item {
   text-align: center;
   margin-left: 20px;
 }
+
+button {
+  min-height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border-color: transparent;
+  background-color: #A683E3;
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 6px;
+  border-width: 0;
+  margin-right:10px;
+}
+
 .addButton {
   min-height: 50px;
   width: 50px;
   border-radius: 50%;
   border-color: transparent;
   /* background-color: #A683E3; */
-  background-color: #f1f4ff;
+  background-color: #A683E3;
+
   color: #fff;
   font-size: 30px;
   padding-bottom: 6px;
   border-width: 0;
-  box-shadow: 3px 3px 15px -5px rgba(0, 0, 0, 0.3);
   margin-right:10px;
   outline:none;
-  
-  box-shadow: 2px 2px 4px rgba(163, 163, 163, 0.747), -1px -1px 4px 2px rgba(255, 255, 255, 0.76);
+  box-shadow: 1px 1px 4px rgba(163, 163, 163, 0.747), -1px -1px 4px 2px rgba(255, 255, 255, 0.445);
 }
-
-.addButton:active {
-  box-shadow:  inset 2px 2px 4px rgba(110, 110, 110, 0.445), inset -1px -1px 4px 1px  rgb(255, 255, 255);
-}
-.addImage {
-  width: 15px;
-  margin-top:4px;
-  /* filter: invert(1) */
-}
-
-.deleteButton {
-  margin-left: auto;
-  margin-right: 6%;
-  background-color: rgba(255, 0, 0, 0.712);
-  background-image:url("img/delete.png");
-  border: none;
-  border-radius: 5px;
-  height: 50px;
-  /* width: 50px; */
-  width: 200px;
-  /* box-shadow: 3px 3px 15px -5px rgba(216, 0, 0, 0.555); */
-  box-shadow: 3px 3px 6px rgba(163, 163, 163, 0.979), -2px -2px 4px 2px rgba(255, 255, 255, 0.932);
-  margin: 10px;
-  outline:none;
-}
-
-.removeText {
-  margin-left: 10px;
-  font-size: 18px;
-  color:white;
-}
-.deleteButton:active {
-  background-color: rgba(224, 24, 24, 0.863);
-  box-shadow:  inset 2px 2px 4px rgba(27, 27, 27, 0.822), inset -1px -1px 4px 1px  rgb(255, 255, 255)
-  /* , 0px 0px 4px rgba(27, 27, 27, 0.445); */
-}
-
-.deleteForm {
-  margin:0;
-  padding:0;
-  /* display: inline; */
-}
-.deleteImage{
-  width: 15px;
-  margin-top:4px;
-  filter: invert(1)
-}
-
-
 
 input[type="text"] {
   text-align: center;
